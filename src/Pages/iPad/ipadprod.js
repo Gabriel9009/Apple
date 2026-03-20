@@ -1,5 +1,5 @@
 
-const ipadprod = [
+const IPadprod = [
   {
     id: "ipad",
     name: "iPad Pro",
@@ -38,4 +38,4 @@ const ipadprod = [
   }
 ];
 
-export default ipadprod
+export default IPadprod

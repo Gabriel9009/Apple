@@ -5,9 +5,9 @@
 
 
 
-import IPadIconStrip from "./iPadIconStrip";
-import IPadEcosystem from "./iPadEcosystem";
-import IPadFeatures from "./iPadFeatures";
+import IPadIconStrip from "./IPadIconStrip";
+import IPadEcosystem from "./IPadEcosystem";
+import IPadFeatures from "./IPadFeatures";
 import IPadProducts from "./IPadProducts";
 import IPadHero from "./IPadHero"
 
@@ -23,7 +23,7 @@ import IPadHero from "./IPadHero"
  *
  * To build an iPhone page, you'd follow this exact same pattern.
  */
-const iPad = () => {
+const IPad = () => {
   return (
     <main className="bg-white text-black">
       <IPadIconStrip />
@@ -35,4 +35,4 @@ const iPad = () => {
   );
 };
 
-export default iPad;
+export default IPad;

@@ -5,7 +5,7 @@ import ProductCard from "../../components/product/ProductCard";
 import SectionWrapper from "../../components/layout/SectionWrapper";
 import products from "../Macc/product";
 import iphoneprod from "../Iphone/iphoneprod";
-import ipadprod from "../iPad/IPadprod";
+import IPadprod from "../iPad/IPadprod";
 const categories = [
   {label:"Mac", value:"mac"},
   {label:"Ipad", value:"ipad"},
@@ -19,7 +19,7 @@ const BuyProducts = () => {
 
   const filteredProducts = useMemo(() => {
     if (label === 'mac') return products;
-    if (label === "ipad") return ipadprod;
+    if (label === "ipad") return IPadprod;
     if (label === "iphone") return iphoneprod;
     return [];
   }, [label]);
