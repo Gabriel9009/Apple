@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Hero from "./Pages/Hero.jsx";
 import Footer from "./Components/Footer.jsx";
 import Mac from "./Pages/Macc/Mac.jsx";
-import IPad from "./Pages/Ipad/IPad.jsx";
+import IPad from "./Pages/IPad/IPadPage.jsx";
 import IPhone from "./Pages/Iphone/IPhone.jsx";
 import Support from "./Pages/Support/Support.jsx";
 import Buy from "./Pages/Buy/Buy.jsx";

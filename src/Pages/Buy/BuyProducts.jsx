@@ -5,7 +5,7 @@ import ProductCard from "../../components/product/ProductCard";
 import SectionWrapper from "../../components/layout/SectionWrapper";
 import products from "../Macc/product";
 import iphoneprod from "../Iphone/iphoneprod";
-import IPadprod from "../iPad/IPadprod";
+import IPadprod from "../Ipad/IPadata";
 const categories = [
   {label:"Mac", value:"mac"},
   {label:"Ipad", value:"ipad"},
