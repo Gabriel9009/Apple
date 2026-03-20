@@ -1,7 +1,7 @@
-import HorizontalCarousel from "../../Components/HorizontalCarousel";
-import SectionWrapper from "../../components/layout/SectionWrapper";
-import ProductCard from "../../components/product/ProductCard";
-import ipadprod from "./ipadprod";
+import HorizontalCarousel from "../../Components/HorizontalCarousel.jsx";
+import SectionWrapper from "../../components/layout/SectionWrapper.jsx";
+import ProductCard from "../../components/product/ProductCard.jsx";
+import ipadprod from "./IPadprod.js";
 const IPadProducts = () => {
   return (
     <SectionWrapper noPadding className="pb-24">
